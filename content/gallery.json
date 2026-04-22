@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "title": "School Building",
+      "image": "/assets/school_building.png",
+      "caption": "A beautiful view of our school building."
+    },
+    {
+      "title": "Front View",
+      "image": "/assets/school_front.jpeg",
+      "caption": "A welcoming front view of Ancilla Preparatory School."
+    },
+    {
+      "title": "School Compound",
+      "image": "/assets/compound.jpeg",
+      "caption": "A clean and safe school environment."
+    },
+    {
+      "title": "Corridor and Classrooms",
+      "image": "/assets/corridor.jpeg",
+      "caption": "Organized learning spaces for our learners."
+    },
+    {
+      "title": "Students",
+      "image": "/assets/students.png",
+      "caption": "Our learners in a lively school setting."
+    }
+  ]
+}

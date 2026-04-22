@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "pages"
+    label: "Website Settings"
+    files:
+      - file: "content/site.json"
+        label: "Contact & School Details"
+        name: "site"
+        fields:
+          - { label: "School Name", name: "school_name", widget: "string" }
+          - { label: "Motto", name: "motto", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "WhatsApp Number (with country code, no +)", name: "whatsapp_number", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Google Admission Form URL", name: "google_form_url", widget: "string" }
+
+      - file: "content/home.json"
+        label: "Homepage"
+        name: "home"
+        fields:
+          - { label: "Hero Badge", name: "badge", widget: "string" }
+          - { label: "Hero Title", name: "title", widget: "string" }
+          - { label: "Hero Description", name: "description", widget: "text" }
+          - { label: "Slideshow Caption Title", name: "slide_caption_title", widget: "string" }
+          - { label: "Slideshow Caption Text", name: "slide_caption_text", widget: "text" }
+
+      - file: "content/headmistress.json"
+        label: "Headmistress"
+        name: "headmistress"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Message", name: "message", widget: "text" }
+          - { label: "Photo", name: "photo", widget: "image" }
+
+      - file: "content/gallery.json"
+        label: "Gallery"
+        name: "gallery"
+        fields:
+          - label: "Gallery Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "text" }
+
+      - file: "content/events.json"
+        label: "Events / Activities"
+        name: "events"
+        fields:
+          - label: "Event Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }

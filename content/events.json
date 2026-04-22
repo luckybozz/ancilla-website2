@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title": "School Gathering",
+      "image": "/assets/event1.jpeg",
+      "description": "A meaningful school gathering that brings learners together in unity and discipline."
+    },
+    {
+      "title": "Student Participation",
+      "image": "/assets/event2.jpeg",
+      "description": "Learners taking part in school activities that build confidence and teamwork."
+    },
+    {
+      "title": "Group Presentation",
+      "image": "/assets/event3.jpeg",
+      "description": "A special group presentation showcasing collaboration and creativity."
+    },
+    {
+      "title": "School Activity",
+      "image": "/assets/event4.jpeg",
+      "description": "An inspiring school moment that promotes holistic development."
+    }
+  ]
+}
